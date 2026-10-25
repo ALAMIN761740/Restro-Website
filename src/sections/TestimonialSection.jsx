@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Animated from '../components/Animated'
 import { testimonials } from '../data/data'
 import { StarIcon } from 'lucide-react'
@@ -20,7 +20,7 @@ const TestimonialSection = () => {
             </Animated>
 
             {/* Testimonials Grid */}
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto mt-6'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto mt-8'>
                 {testimonials.map((item, index)=>(
                     <Animated key={index} y={80} delay={index * 0.1} >
                         <div className="border border-slate-200 hover:bg-slate-50/50 rounded-2xl p-6  flex flex-col justify-between text-left">
