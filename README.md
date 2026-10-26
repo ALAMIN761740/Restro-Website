@@ -146,7 +146,7 @@ screenshots/
 Once these images exist, reference them in this section:
 
 ```md
-![Restro Homepage](./public/assets/oneclickshot.png)
+[Restro Homepage](./public/assets/oneclickshot.png)
 
 
 ```
