@@ -11,7 +11,7 @@ const Footer = () => {
                 {/* Colum 1 - Brand & Socials */}
                 <div className='flex flex-col items-start text-left'>
                     <Animated>
-                        <img src="/public/assets/logo.svg" alt="logo" />
+                        <img src="/assets/logo.svg" alt="logo" />
                     </Animated>
                     <Animated>
                         <p className='mt-3 text-sm/5.5 text-zinc-600 max-w-81.25'>
